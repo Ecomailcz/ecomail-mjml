@@ -1,6 +1,5 @@
 {
-  "name": "mjml-master",
-  "private": true,
+  "name": "mjml-ecomail-fork",
   "scripts": {
     "build:watch": "lerna run build --parallel -- -- -w",
     "build": "lerna run build --parallel",

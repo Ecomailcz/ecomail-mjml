@@ -195,7 +195,7 @@ export default class MjColumn extends BodyComponent {
           cellpadding: '0',
           cellspacing: '0',
           role: 'presentation',
-          width: '100%',
+          width: '50%',
         })}
       >
         <tbody>

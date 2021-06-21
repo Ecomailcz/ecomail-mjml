@@ -1,7 +1,7 @@
 {
   "name": "mjml-core",
   "description": "mjml-core",
-  "version": "4.4.0-ecm",
+  "version": "4.4.0-ecm-1",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
@@ -23,8 +23,8 @@
     "js-beautify": "^1.6.14",
     "juice": "^5.2.0",
     "lodash": "^4.17.2",
-    "mjml-migrate": "4.4.0-ecm",
-    "mjml-parser-xml": "4.4.0-ecm",
+    "mjml-migrate": "4.4.0-ecm-1",
+    "mjml-parser-xml": "4.4.0-ecm-1",
     "mjml-validator": "4.4.0"
   },
   "devDependencies": {

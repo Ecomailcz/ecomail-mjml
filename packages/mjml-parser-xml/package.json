@@ -1,6 +1,6 @@
 {
-  "name": "mjml-parser-xml",
-  "description": "mjml-parser-xml",
+  "name": "mjml-ecm-parser-xml",
+  "description": "mjml-ecm-parser-xml",
   "version": "4.4.0-ecm-10",
   "main": "lib/index.js",
   "repository": {
@@ -26,6 +26,6 @@
     "chai": "^4.1.1",
     "cross-env": "^5.2.0",
     "mjml": "4.4.0-ecm-10",
-    "mjml-core": "4.4.0-ecm-10"
+    "mjml-ecm-core": "4.4.0-ecm-10"
   }
 }

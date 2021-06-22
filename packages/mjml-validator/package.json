@@ -1,6 +1,6 @@
 {
-  "name": "mjml-validator",
-  "description": "mjml-validator",
+  "name": "mjml-ecm-validator",
+  "description": "mjml-ecm-validator",
   "version": "4.4.0-ecm-10",
   "main": "lib/index.js",
   "repository": {

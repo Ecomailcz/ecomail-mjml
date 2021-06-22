@@ -1,6 +1,6 @@
 {
-  "name": "mjml-head-breakpoint",
-  "description": "mjml-head-breakpoint",
+  "name": "mjml-ecm-head-breakpoint",
+  "description": "mjml-ecm-head-breakpoint",
   "version": "4.4.0-ecm-10",
   "main": "lib/index.js",
   "repository": {
@@ -19,7 +19,7 @@
   "dependencies": {
     "babel-runtime": "^6.26.0",
     "lodash": "^4.17.2",
-    "mjml-core": "4.4.0-ecm-10"
+    "mjml-ecm-core": "4.4.0-ecm-10"
   },
   "devDependencies": {
     "cross-env": "^5.2.0"

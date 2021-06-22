@@ -18,7 +18,7 @@ export default function buildMediaQueriesTags(
 
   return `
     <style type="text/css">
-      @media only screen and (min-width:${breakpoint}) {
+      @media only screen and (max-width:${breakpoint}) {
         ${baseMediaQueries.join('\n')}
       }
     </style>

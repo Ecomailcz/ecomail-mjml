@@ -1,9 +1,9 @@
-import { BodyComponent } from 'mjml-core'
+import { BodyComponent } from 'mjml-ecm-core'
 import crypto from 'crypto'
 
 import conditionalTag, {
   msoConditionalTag,
-} from 'mjml-core/lib/helpers/conditionalTag'
+} from 'mjml-ecm-core/lib/helpers/conditionalTag'
 
 export default class MjNavbar extends BodyComponent {
   static allowedAttributes = {

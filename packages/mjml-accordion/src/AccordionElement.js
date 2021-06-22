@@ -1,6 +1,6 @@
-import { BodyComponent } from 'mjml-core'
+import { BodyComponent } from 'mjml-ecm-core'
 import { find } from 'lodash'
-import conditionalTag from 'mjml-core/lib/helpers/conditionalTag'
+import conditionalTag from 'mjml-ecm-core/lib/helpers/conditionalTag'
 import AccordionText from './AccordionText'
 import AccordionTitle from './AccordionTitle'
 

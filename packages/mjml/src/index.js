@@ -1,37 +1,37 @@
-import mjml2html, { registerComponent } from 'mjml-core'
-import { registerDependencies } from 'mjml-validator'
+import mjml2html, { registerComponent } from 'mjml-ecm-core'
+import { registerDependencies } from 'mjml-ecm-validator'
 
-import { Social, SocialElement } from 'mjml-social'
-import { Navbar, NavbarLink } from 'mjml-navbar'
-import { Carousel, CarouselImage } from 'mjml-carousel'
+import { Social, SocialElement } from 'mjml-ecm-social'
+import { Navbar, NavbarLink } from 'mjml-ecm-navbar'
+import { Carousel, CarouselImage } from 'mjml-ecm-carousel'
 import {
   Accordion,
   AccordionElement,
   AccordionText,
   AccordionTitle,
-} from 'mjml-accordion'
+} from 'mjml-ecm-accordion'
 
-registerComponent(require('mjml-body'))
-registerComponent(require('mjml-head'))
-registerComponent(require('mjml-head-attributes'))
-registerComponent(require('mjml-head-breakpoint'))
-registerComponent(require('mjml-head-font'))
-registerComponent(require('mjml-head-preview'))
-registerComponent(require('mjml-head-style'))
-registerComponent(require('mjml-head-title'))
-registerComponent(require('mjml-hero'))
-registerComponent(require('mjml-button'))
-registerComponent(require('mjml-column'))
-registerComponent(require('mjml-divider'))
-registerComponent(require('mjml-group'))
-registerComponent(require('mjml-image'))
+registerComponent(require('mjml-ecm-body'))
+registerComponent(require('mjml-ecm-head'))
+registerComponent(require('mjml-ecm-head-attributes'))
+registerComponent(require('mjml-ecm-head-breakpoint'))
+registerComponent(require('mjml-ecm-head-font'))
+registerComponent(require('mjml-ecm-head-preview'))
+registerComponent(require('mjml-ecm-head-style'))
+registerComponent(require('mjml-ecm-head-title'))
+registerComponent(require('mjml-ecm-hero'))
+registerComponent(require('mjml-ecm-button'))
+registerComponent(require('mjml-ecm-column'))
+registerComponent(require('mjml-ecm-divider'))
+registerComponent(require('mjml-ecm-group'))
+registerComponent(require('mjml-ecm-image'))
 
-registerComponent(require('mjml-raw'))
-registerComponent(require('mjml-section'))
-registerComponent(require('mjml-spacer'))
-registerComponent(require('mjml-text'))
-registerComponent(require('mjml-table'))
-registerComponent(require('mjml-wrapper'))
+registerComponent(require('mjml-ecm-raw'))
+registerComponent(require('mjml-ecm-section'))
+registerComponent(require('mjml-ecm-spacer'))
+registerComponent(require('mjml-ecm-text'))
+registerComponent(require('mjml-ecm-table'))
+registerComponent(require('mjml-ecm-wrapper'))
 
 registerComponent(Social)
 registerComponent(SocialElement)

@@ -1,4 +1,4 @@
-const types = require('./packages/mjml-core/lib/types/type.js')
+const types = require('./packages/mjml-ecm-core/lib/types/type.js')
 
 const enumtype = types.initializeType('enum(top,left,center)')
 const colortype = types.initializeType('color')

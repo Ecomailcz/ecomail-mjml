@@ -1,6 +1,6 @@
 {
   "name": "mjml-ecm-migrate",
-  "version": "4.4.0-ecm-10",
+  "version": "4.4.0-ecm-11",
   "description": "A tool to migrate a template from MJML 3 to MJML 4",
   "main": "lib/migrate.js",
   "bin": {
@@ -27,7 +27,7 @@
     "commander": "^2.11.0",
     "js-beautify": "^1.6.14",
     "lodash": "^4.17.2",
-    "mjml-ecm-core": "4.4.0-ecm-10",
-    "mjml-ecm-parser-xml": "4.4.0-ecm-10"
+    "mjml-ecm-core": "4.4.0-ecm-11",
+    "mjml-ecm-parser-xml": "4.4.0-ecm-11"
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "mjml-ecm-validator",
   "description": "mjml-ecm-validator",
-  "version": "4.4.0-ecm-10",
+  "version": "4.4.0-ecm-11",
   "main": "lib/index.js",
   "repository": {
     "type": "git",

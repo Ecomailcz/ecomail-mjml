@@ -25,7 +25,7 @@ var _inherits2 = require('babel-runtime/helpers/inherits');
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _mjmlCore = require('mjml-core');
+var _mjmlEcmCore = require('mjml-ecm-core');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -44,7 +44,7 @@ var MjHead = function (_HeadComponent) {
     }
   }]);
   return MjHead;
-}(_mjmlCore.HeadComponent);
+}(_mjmlEcmCore.HeadComponent);
 
 exports.default = MjHead;
 module.exports = exports['default'];

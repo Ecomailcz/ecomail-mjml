@@ -27,7 +27,7 @@ var _inherits3 = _interopRequireDefault(_inherits2);
 
 var _class, _temp;
 
-var _mjmlCore = require('mjml-core');
+var _mjmlEcmCore = require('mjml-ecm-core');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -49,6 +49,6 @@ var MjPreview = (_temp = _class = function (_HeadComponent) {
     }
   }]);
   return MjPreview;
-}(_mjmlCore.HeadComponent), _class.endingTag = true, _temp);
+}(_mjmlEcmCore.HeadComponent), _class.endingTag = true, _temp);
 exports.default = MjPreview;
 module.exports = exports['default'];

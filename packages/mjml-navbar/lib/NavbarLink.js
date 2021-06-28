@@ -27,13 +27,13 @@ var _inherits3 = _interopRequireDefault(_inherits2);
 
 var _class, _temp;
 
-var _mjmlCore = require('mjml-core');
+var _mjmlEcmCore = require('mjml-ecm-core');
 
 var _url = require('url');
 
 var _url2 = _interopRequireDefault(_url);
 
-var _conditionalTag = require('mjml-core/lib/helpers/conditionalTag');
+var _conditionalTag = require('mjml-ecm-core/lib/helpers/conditionalTag');
 
 var _conditionalTag2 = _interopRequireDefault(_conditionalTag);
 
@@ -98,12 +98,12 @@ var MjNavbarLink = (_temp = _class = function (_BodyComponent) {
     value: function render() {
       return '\n        ' + (0, _conditionalTag2.default)('\n          <td\n            ' + this.htmlAttributes({
         style: 'td',
-        class: (0, _mjmlCore.suffixCssClasses)(this.getAttribute('css-class'), 'outlook')
+        class: (0, _mjmlEcmCore.suffixCssClasses)(this.getAttribute('css-class'), 'outlook')
       }) + '\n          >\n        ') + '\n        ' + this.renderContent() + '\n        ' + (0, _conditionalTag2.default)('\n          </td>\n        ') + '\n      ';
     }
   }]);
   return MjNavbarLink;
-}(_mjmlCore.BodyComponent), _class.endingTag = true, _class.allowedAttributes = {
+}(_mjmlEcmCore.BodyComponent), _class.endingTag = true, _class.allowedAttributes = {
   color: 'color',
   'font-family': 'string',
   'font-size': 'unit(px)',

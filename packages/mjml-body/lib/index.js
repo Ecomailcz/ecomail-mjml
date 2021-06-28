@@ -31,7 +31,7 @@ var _inherits3 = _interopRequireDefault(_inherits2);
 
 var _class, _temp;
 
-var _mjmlCore = require('mjml-core');
+var _mjmlEcmCore = require('mjml-ecm-core');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -73,7 +73,7 @@ var MjBody = (_temp = _class = function (_BodyComponent) {
     }
   }]);
   return MjBody;
-}(_mjmlCore.BodyComponent), _class.allowedAttributes = {
+}(_mjmlEcmCore.BodyComponent), _class.allowedAttributes = {
   width: 'unit(px,%)',
   'background-color': 'color'
 }, _class.defaultAttributes = {

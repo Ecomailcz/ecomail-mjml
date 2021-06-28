@@ -33,9 +33,9 @@ var _class, _temp;
 
 var _lodash = require('lodash');
 
-var _mjmlParserXml = require('mjml-parser-xml');
+var _mjmlEcmParserXml = require('mjml-ecm-parser-xml');
 
-var _mjmlParserXml2 = _interopRequireDefault(_mjmlParserXml);
+var _mjmlEcmParserXml2 = _interopRequireDefault(_mjmlEcmParserXml);
 
 var _shorthandParser = require('./helpers/shorthandParser');
 
@@ -117,7 +117,7 @@ var Component = (_temp = _class = function () {
       var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
 
       if (typeof mjml === 'string') {
-        mjml = (0, _mjmlParserXml2.default)(mjml, (0, _extends3.default)({}, options, {
+        mjml = (0, _mjmlEcmParserXml2.default)(mjml, (0, _extends3.default)({}, options, {
           components: _components2.default,
           ignoreIncludes: true
         }));

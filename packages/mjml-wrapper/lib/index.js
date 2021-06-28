@@ -25,11 +25,11 @@ var _inherits2 = require('babel-runtime/helpers/inherits');
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _mjmlSection = require('mjml-section');
+var _mjmlEcmSection = require('mjml-ecm-section');
 
-var _mjmlSection2 = _interopRequireDefault(_mjmlSection);
+var _mjmlEcmSection2 = _interopRequireDefault(_mjmlEcmSection);
 
-var _mjmlCore = require('mjml-core');
+var _mjmlEcmCore = require('mjml-ecm-core');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -52,7 +52,7 @@ var MjWrapper = function (_MjSection) {
         renderer: function renderer(component) {
           return component.constructor.isRawElement() ? component.render() : '\n          <!--[if mso | IE]>\n            <tr>\n              <td\n                ' + component.htmlAttributes({
             align: component.getAttribute('align'),
-            class: (0, _mjmlCore.suffixCssClasses)(component.getAttribute('css-class'), 'outlook'),
+            class: (0, _mjmlEcmCore.suffixCssClasses)(component.getAttribute('css-class'), 'outlook'),
             width: containerWidth
           }) + '\n              >\n          <![endif]-->\n            ' + component.render() + '\n          <!--[if mso | IE]>\n              </td>\n            </tr>\n          <![endif]-->\n        ';
         }
@@ -60,7 +60,7 @@ var MjWrapper = function (_MjSection) {
     }
   }]);
   return MjWrapper;
-}(_mjmlSection2.default);
+}(_mjmlEcmSection2.default);
 
 exports.default = MjWrapper;
 module.exports = exports['default'];

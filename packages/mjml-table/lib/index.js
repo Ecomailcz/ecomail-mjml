@@ -35,11 +35,11 @@ var _inherits3 = _interopRequireDefault(_inherits2);
 
 var _class, _temp;
 
-var _widthParser2 = require('mjml-core/lib/helpers/widthParser');
+var _widthParser2 = require('mjml-ecm-core/lib/helpers/widthParser');
 
 var _widthParser3 = _interopRequireDefault(_widthParser2);
 
-var _mjmlCore = require('mjml-core');
+var _mjmlEcmCore = require('mjml-ecm-core');
 
 var _lodash = require('lodash');
 
@@ -96,7 +96,7 @@ var MjTable = (_temp = _class = function (_BodyComponent) {
     }
   }]);
   return MjTable;
-}(_mjmlCore.BodyComponent), _class.endingTag = true, _class.allowedAttributes = {
+}(_mjmlEcmCore.BodyComponent), _class.endingTag = true, _class.allowedAttributes = {
   align: 'enum(left,right,center)',
   border: 'string',
   cellpadding: 'integer',

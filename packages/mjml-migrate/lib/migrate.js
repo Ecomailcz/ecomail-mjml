@@ -21,11 +21,11 @@ exports.handleMjml3 = handleMjml3;
 
 var _lodash = require('lodash');
 
-var _mjmlParserXml = require('mjml-parser-xml');
+var _mjmlEcmParserXml = require('mjml-ecm-parser-xml');
 
-var _mjmlParserXml2 = _interopRequireDefault(_mjmlParserXml);
+var _mjmlEcmParserXml2 = _interopRequireDefault(_mjmlEcmParserXml);
 
-var _mjmlCore = require('mjml-core');
+var _mjmlEcmCore = require('mjml-ecm-core');
 
 var _jsBeautify = require('js-beautify');
 
@@ -205,7 +205,7 @@ function migrate(input) {
 
   if ((typeof input === 'undefined' ? 'undefined' : (0, _typeof3.default)(input)) === 'object') return loopThrough(input);
 
-  var mjmlJson = (0, _mjmlParserXml2.default)(input, { components: _mjmlCore.components, ignoreIncludes: true });
+  var mjmlJson = (0, _mjmlEcmParserXml2.default)(input, { components: _mjmlEcmCore.components, ignoreIncludes: true });
   loopThrough(mjmlJson);
 
   return beautify ? (0, _jsBeautify.html)(jsonToXML(mjmlJson), beautifyOptions) : jsonToXML(mjmlJson);

@@ -27,9 +27,9 @@ var _inherits3 = _interopRequireDefault(_inherits2);
 
 var _class, _temp;
 
-var _mjmlCore = require('mjml-core');
+var _mjmlEcmCore = require('mjml-ecm-core');
 
-var _widthParser2 = require('mjml-core/lib/helpers/widthParser');
+var _widthParser2 = require('mjml-ecm-core/lib/helpers/widthParser');
 
 var _widthParser3 = _interopRequireDefault(_widthParser2);
 
@@ -133,7 +133,7 @@ var MjButton = (_temp = _class = function (_BodyComponent) {
     }
   }]);
   return MjButton;
-}(_mjmlCore.BodyComponent), _class.endingTag = true, _class.allowedAttributes = {
+}(_mjmlEcmCore.BodyComponent), _class.endingTag = true, _class.allowedAttributes = {
   align: 'enum(left,center,right)',
   'background-color': 'color',
   'border-bottom': 'string',

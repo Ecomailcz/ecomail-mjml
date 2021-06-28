@@ -27,9 +27,9 @@ var _inherits3 = _interopRequireDefault(_inherits2);
 
 var _class, _temp;
 
-var _mjmlCore = require('mjml-core');
+var _mjmlEcmCore = require('mjml-ecm-core');
 
-var _conditionalTag = require('mjml-core/lib/helpers/conditionalTag');
+var _conditionalTag = require('mjml-ecm-core/lib/helpers/conditionalTag');
 
 var _conditionalTag2 = _interopRequireDefault(_conditionalTag);
 
@@ -63,7 +63,7 @@ var MjSpacer = (_temp = _class = function (_BodyComponent) {
     }
   }]);
   return MjSpacer;
-}(_mjmlCore.BodyComponent), _class.allowedAttributes = {
+}(_mjmlEcmCore.BodyComponent), _class.allowedAttributes = {
   border: 'string',
   'border-bottom': 'string',
   'border-left': 'string',

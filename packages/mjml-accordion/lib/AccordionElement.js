@@ -35,11 +35,11 @@ var _inherits3 = _interopRequireDefault(_inherits2);
 
 var _class, _temp;
 
-var _mjmlCore = require('mjml-core');
+var _mjmlEcmCore = require('mjml-ecm-core');
 
 var _lodash = require('lodash');
 
-var _conditionalTag = require('mjml-core/lib/helpers/conditionalTag');
+var _conditionalTag = require('mjml-ecm-core/lib/helpers/conditionalTag');
 
 var _conditionalTag2 = _interopRequireDefault(_conditionalTag);
 
@@ -125,7 +125,7 @@ var MjAccordionElement = (_temp = _class = function (_BodyComponent) {
     }
   }]);
   return MjAccordionElement;
-}(_mjmlCore.BodyComponent), _class.allowedAttributes = {
+}(_mjmlEcmCore.BodyComponent), _class.allowedAttributes = {
   'background-color': 'color',
   'font-family': 'string',
   'icon-align': 'enum(top,middle,bottom)',

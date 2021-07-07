@@ -1,7 +1,7 @@
 {
   "name": "@ecomailcz/mjml-wrapper",
   "description": "@ecomailcz/mjml-wrapper",
-  "version": "4.4.0-ecm-19",
+  "version": "4.4.0-ecm-20",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
@@ -17,8 +17,8 @@
     "build": "cross-env ../../node_modules/.bin/babel src --out-dir lib"
   },
   "dependencies": {
-    "@ecomailcz/mjml-core": "4.4.0-ecm-19",
-    "@ecomailcz/mjml-section": "4.4.0-ecm-19",
+    "@ecomailcz/mjml-core": "4.4.0-ecm-20",
+    "@ecomailcz/mjml-section": "4.4.0-ecm-20",
     "babel-runtime": "^6.26.0",
     "lodash": "^4.17.2"
   },

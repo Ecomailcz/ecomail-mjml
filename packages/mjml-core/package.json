@@ -1,7 +1,7 @@
 {
   "name": "@ecomailcz/mjml-core",
   "description": "@ecomailcz/mjml-core",
-  "version": "4.4.0-ecm-18",
+  "version": "4.4.0-ecm-19",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
@@ -18,14 +18,14 @@
     "test": "node ./tests/index.js"
   },
   "dependencies": {
+    "@ecomailcz/mjml-migrate": "4.4.0-ecm-19",
+    "@ecomailcz/mjml-parser-xml": "4.4.0-ecm-19",
+    "@ecomailcz/mjml-validator": "4.4.0-ecm-19",
     "babel-runtime": "^6.26.0",
     "html-minifier": "^3.5.3",
     "js-beautify": "^1.6.14",
     "juice": "^5.2.0",
-    "lodash": "^4.17.2",
-    "@ecomailcz/mjml-migrate": "4.4.0-ecm-18",
-    "@ecomailcz/mjml-parser-xml": "4.4.0-ecm-18",
-    "@ecomailcz/mjml-validator": "4.4.0-ecm-18"
+    "lodash": "^4.17.2"
   },
   "devDependencies": {
     "chai": "^4.1.1",

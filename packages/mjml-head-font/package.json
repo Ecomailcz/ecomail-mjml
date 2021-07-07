@@ -1,7 +1,7 @@
 {
   "name": "@ecomailcz/mjml-head-font",
   "description": "@ecomailcz/mjml-head-font",
-  "version": "4.4.0-ecm-18",
+  "version": "4.4.0-ecm-19",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
@@ -17,9 +17,9 @@
     "build": "cross-env ../../node_modules/.bin/babel src --out-dir lib"
   },
   "dependencies": {
+    "@ecomailcz/mjml-core": "4.4.0-ecm-19",
     "babel-runtime": "^6.26.0",
-    "lodash": "^4.17.2",
-    "@ecomailcz/mjml-core": "4.4.0-ecm-18"
+    "lodash": "^4.17.2"
   },
   "devDependencies": {
     "cross-env": "^5.2.0"

@@ -1,7 +1,7 @@
 {
   "name": "@ecomailcz/mjml-validator",
   "description": "@ecomailcz/mjml-validator",
-  "version": "4.4.0-ecm-18",
+  "version": "4.4.0-ecm-19",
   "main": "lib/index.js",
   "repository": {
     "type": "git",

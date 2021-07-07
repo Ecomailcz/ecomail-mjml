@@ -1,8 +1,11 @@
 {
   "name": "@ecomailcz/mjml-core",
   "description": "@ecomailcz/mjml-core",
-  "version": "4.4.0-ecm-22",
+  "version": "4.4.0-ecm-23",
   "main": "lib/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mjmlio/mjml.git"
@@ -18,9 +21,9 @@
     "test": "node ./tests/index.js"
   },
   "dependencies": {
-    "@ecomailcz/mjml-migrate": "4.4.0-ecm-22",
-    "@ecomailcz/mjml-parser-xml": "4.4.0-ecm-22",
-    "@ecomailcz/mjml-validator": "4.4.0-ecm-22",
+    "@ecomailcz/mjml-migrate": "4.4.0-ecm-23",
+    "@ecomailcz/mjml-parser-xml": "4.4.0-ecm-23",
+    "@ecomailcz/mjml-validator": "4.4.0-ecm-23",
     "babel-runtime": "^6.26.0",
     "html-minifier": "^3.5.3",
     "js-beautify": "^1.6.14",

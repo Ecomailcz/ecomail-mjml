@@ -1,8 +1,11 @@
 {
   "name": "@ecomailcz/mjml-validator",
   "description": "@ecomailcz/mjml-validator",
-  "version": "4.4.0-ecm-22",
+  "version": "4.4.0-ecm-23",
   "main": "lib/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mjmlio/mjml.git"

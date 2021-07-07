@@ -1,8 +1,11 @@
 {
   "name": "@ecomailcz/mjml-head",
   "description": "@ecomailcz/mjml-head",
-  "version": "4.4.0-ecm-22",
+  "version": "4.4.0-ecm-23",
   "main": "lib/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mjmlio/mjml.git"
@@ -17,7 +20,7 @@
     "build": "cross-env ../../node_modules/.bin/babel src --out-dir lib"
   },
   "dependencies": {
-    "@ecomailcz/mjml-core": "4.4.0-ecm-22",
+    "@ecomailcz/mjml-core": "4.4.0-ecm-23",
     "babel-runtime": "^6.26.0",
     "lodash": "^4.17.2"
   },

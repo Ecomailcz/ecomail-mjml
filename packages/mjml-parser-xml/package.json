@@ -1,8 +1,11 @@
 {
   "name": "@ecomailcz/mjml-parser-xml",
   "description": "@ecomailcz/mjml-parser-xml",
-  "version": "4.4.0-ecm-22",
+  "version": "4.4.0-ecm-23",
   "main": "lib/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mjmlio/mjml.git"
@@ -23,8 +26,8 @@
     "lodash": "^4.17.2"
   },
   "devDependencies": {
-    "@ecomailcz/mjml": "4.4.0-ecm-22",
-    "@ecomailcz/mjml-core": "4.4.0-ecm-22",
+    "@ecomailcz/mjml": "4.4.0-ecm-23",
+    "@ecomailcz/mjml-core": "4.4.0-ecm-23",
     "chai": "^4.1.1",
     "cross-env": "^5.2.0"
   }

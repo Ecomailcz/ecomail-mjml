@@ -1,4 +1,4 @@
-import { HeadComponent } from 'mjml-ecm-core'
+import { HeadComponent } from '@ecomailcz/mjml-core'
 
 export default class MjTitle extends HeadComponent {
   static endingTag = true

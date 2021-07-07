@@ -31,9 +31,9 @@ var _inherits3 = _interopRequireDefault(_inherits2);
 
 var _class, _temp;
 
-var _mjmlEcmCore = require('mjml-ecm-core');
+var _mjmlCore = require('@ecomailcz/mjml-core');
 
-var _widthParser2 = require('mjml-ecm-core/lib/helpers/widthParser');
+var _widthParser2 = require('@ecomailcz/mjml-core/lib/helpers/widthParser');
 
 var _widthParser3 = _interopRequireDefault(_widthParser2);
 
@@ -112,7 +112,7 @@ var MjDivider = (_temp = _class = function (_BodyComponent) {
     }
   }]);
   return MjDivider;
-}(_mjmlEcmCore.BodyComponent), _class.tagOmission = true, _class.allowedAttributes = {
+}(_mjmlCore.BodyComponent), _class.tagOmission = true, _class.allowedAttributes = {
   'border-color': 'color',
   'border-style': 'string',
   'border-width': 'unit(px)',

@@ -27,7 +27,7 @@ var _inherits3 = _interopRequireDefault(_inherits2);
 
 var _class, _temp;
 
-var _mjmlEcmCore = require('mjml-ecm-core');
+var _mjmlCore = require('@ecomailcz/mjml-core');
 
 var _range = require('lodash/range');
 
@@ -49,7 +49,7 @@ var _crypto = require('crypto');
 
 var _crypto2 = _interopRequireDefault(_crypto);
 
-var _conditionalTag = require('mjml-ecm-core/lib/helpers/conditionalTag');
+var _conditionalTag = require('@ecomailcz/mjml-core/lib/helpers/conditionalTag');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -254,7 +254,7 @@ var MjCarousel = (_temp = _class = function (_BodyComponent) {
     }
   }]);
   return MjCarousel;
-}(_mjmlEcmCore.BodyComponent), _class.allowedAttributes = {
+}(_mjmlCore.BodyComponent), _class.allowedAttributes = {
   align: 'enum(left,center,right)',
   'border-radius': 'unit(px,%)',
   'icon-width': 'unit(px,%)',

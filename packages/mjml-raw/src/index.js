@@ -1,4 +1,4 @@
-import { BodyComponent } from 'mjml-ecm-core'
+import { BodyComponent } from '@ecomailcz/mjml-core'
 
 export default class MjRaw extends BodyComponent {
   static endingTag = true

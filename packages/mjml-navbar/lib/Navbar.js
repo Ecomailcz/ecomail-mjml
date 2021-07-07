@@ -27,13 +27,13 @@ var _inherits3 = _interopRequireDefault(_inherits2);
 
 var _class, _temp2;
 
-var _mjmlEcmCore = require('mjml-ecm-core');
+var _mjmlCore = require('@ecomailcz/mjml-core');
 
 var _crypto = require('crypto');
 
 var _crypto2 = _interopRequireDefault(_crypto);
 
-var _conditionalTag = require('mjml-ecm-core/lib/helpers/conditionalTag');
+var _conditionalTag = require('@ecomailcz/mjml-core/lib/helpers/conditionalTag');
 
 var _conditionalTag2 = _interopRequireDefault(_conditionalTag);
 
@@ -135,7 +135,7 @@ var MjNavbar = (_temp2 = _class = function (_BodyComponent) {
     }
   }]);
   return MjNavbar;
-}(_mjmlEcmCore.BodyComponent), _class.allowedAttributes = {
+}(_mjmlCore.BodyComponent), _class.allowedAttributes = {
   align: 'enum(left,center,right)',
   'base-url': 'string',
   hamburger: 'string',

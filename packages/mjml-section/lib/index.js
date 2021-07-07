@@ -35,7 +35,7 @@ var _inherits3 = _interopRequireDefault(_inherits2);
 
 var _class, _temp2;
 
-var _mjmlEcmCore = require('mjml-ecm-core');
+var _mjmlCore = require('@ecomailcz/mjml-core');
 
 var _fp = require('lodash/fp');
 
@@ -140,7 +140,7 @@ var MjSection = (_temp2 = _class = function (_BodyComponent) {
         border: '0',
         cellpadding: '0',
         cellspacing: '0',
-        class: (0, _mjmlEcmCore.suffixCssClasses)(this.getAttribute('css-class'), 'outlook'),
+        class: (0, _mjmlCore.suffixCssClasses)(this.getAttribute('css-class'), 'outlook'),
         style: { width: '' + containerWidth },
         width: parseInt(containerWidth, 10)
       }) + '\n      >\n        <tr>\n          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">\n      <![endif]-->\n    ';
@@ -163,7 +163,7 @@ var MjSection = (_temp2 = _class = function (_BodyComponent) {
         renderer: function renderer(component) {
           return component.constructor.isRawElement() ? component.render() : '\n          <!--[if mso | IE]>\n            <td\n              ' + component.htmlAttributes({
             align: component.getAttribute('align'),
-            class: (0, _mjmlEcmCore.suffixCssClasses)(component.getAttribute('css-class'), 'outlook'),
+            class: (0, _mjmlCore.suffixCssClasses)(component.getAttribute('css-class'), 'outlook'),
             style: 'tdOutlook'
           }) + '\n            >\n          <![endif]-->\n            ' + component.render() + '\n          <!--[if mso | IE]>\n            </td>\n          <![endif]-->\n    ';
         }
@@ -240,7 +240,7 @@ var MjSection = (_temp2 = _class = function (_BodyComponent) {
     }
   }]);
   return MjSection;
-}(_mjmlEcmCore.BodyComponent), _class.allowedAttributes = {
+}(_mjmlCore.BodyComponent), _class.allowedAttributes = {
   'background-color': 'color',
   'background-url': 'string',
   'background-repeat': 'enum(repeat,no-repeat)',

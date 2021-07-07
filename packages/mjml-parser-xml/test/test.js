@@ -1,6 +1,6 @@
 const MJMLParser = require('../lib/index.js')
 require('mjml')
-const components = require('mjml-ecm-core').components
+const components = require('@ecomailcz/mjml-core').components
 const chai = require('chai')
 const displayDiff = require('./test-utils').displayDiff
 const omitDeepLodash = require('./test-utils').omitDeepLodash

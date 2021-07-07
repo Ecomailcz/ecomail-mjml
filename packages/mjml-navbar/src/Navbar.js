@@ -1,9 +1,9 @@
-import { BodyComponent } from 'mjml-ecm-core'
+import { BodyComponent } from '@ecomailcz/mjml-core'
 import crypto from 'crypto'
 
 import conditionalTag, {
   msoConditionalTag,
-} from 'mjml-ecm-core/lib/helpers/conditionalTag'
+} from '@ecomailcz/mjml-core/lib/helpers/conditionalTag'
 
 export default class MjNavbar extends BodyComponent {
   static allowedAttributes = {

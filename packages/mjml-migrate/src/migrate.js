@@ -1,8 +1,8 @@
 /* eslint-disable no-console */
 
 import { keys, find, isNil } from 'lodash'
-import MJMLParser from 'mjml-ecm-parser-xml'
-import { components } from 'mjml-ecm-core'
+import MJMLParser from '@ecomailcz/mjml-parser-xml'
+import { components } from '@ecomailcz/mjml-core'
 import { html as htmlBeautify } from 'js-beautify'
 
 import { unavailableTags, attributesWithUnit } from './config'

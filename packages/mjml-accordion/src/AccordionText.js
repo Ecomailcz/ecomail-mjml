@@ -1,4 +1,4 @@
-import { BodyComponent } from 'mjml-ecm-core'
+import { BodyComponent } from '@ecomailcz/mjml-core'
 
 export default class MjAccordionText extends BodyComponent {
   static endingTag = true

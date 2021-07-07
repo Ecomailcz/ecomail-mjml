@@ -1,11 +1,11 @@
-import { BodyComponent } from 'mjml-ecm-core'
+import { BodyComponent } from '@ecomailcz/mjml-core'
 import range from 'lodash/range'
 import repeat from 'lodash/repeat'
 import min from 'lodash/min'
 import map from 'lodash/map'
 import crypto from 'crypto'
 
-import { msoConditionalTag } from 'mjml-ecm-core/lib/helpers/conditionalTag'
+import { msoConditionalTag } from '@ecomailcz/mjml-core/lib/helpers/conditionalTag'
 
 export default class MjCarousel extends BodyComponent {
   static allowedAttributes = {

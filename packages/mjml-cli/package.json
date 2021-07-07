@@ -1,10 +1,10 @@
 {
-  "name": "mjml-ecm-cli",
+  "name": "@ecomailcz/mjml-cli",
   "description": "MJML: the only framework that makes responsive-email easy",
   "version": "4.4.0-ecm-18",
   "main": "bin/mjml",
   "bin": {
-    "mjml-ecm-cli": "bin/mjml"
+    "@ecomailcz/mjml-cli": "bin/mjml"
   },
   "repository": {
     "type": "git",
@@ -24,10 +24,10 @@
     "chokidar": "^3.0.0",
     "glob": "^7.1.1",
     "lodash": "^4.17.4",
-    "mjml-ecm-core": "4.4.0-ecm-18",
-    "mjml-ecm-migrate": "4.4.0-ecm-18",
-    "mjml-ecm-parser-xml": "4.4.0-ecm-18",
-    "mjml-ecm-validator": "4.4.0-ecm-18",
+    "@ecomailcz/mjml-core": "4.4.0-ecm-18",
+    "@ecomailcz/mjml-migrate": "4.4.0-ecm-18",
+    "@ecomailcz/mjml-parser-xml": "4.4.0-ecm-18",
+    "@ecomailcz/mjml-validator": "4.4.0-ecm-18",
     "yargs": "^8.0.2"
   },
   "devDependencies": {

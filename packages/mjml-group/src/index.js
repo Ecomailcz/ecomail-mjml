@@ -1,6 +1,6 @@
-import { BodyComponent } from 'mjml-ecm-core'
+import { BodyComponent } from '@ecomailcz/mjml-core'
 
-import widthParser from 'mjml-ecm-core/lib/helpers/widthParser'
+import widthParser from '@ecomailcz/mjml-core/lib/helpers/widthParser'
 
 export default class MjGroup extends BodyComponent {
   static allowedAttributes = {

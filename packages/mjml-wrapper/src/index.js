@@ -1,5 +1,5 @@
-import MjSection from 'mjml-ecm-section'
-import { suffixCssClasses } from 'mjml-ecm-core'
+import MjSection from '@ecomailcz/mjml-section'
+import { suffixCssClasses } from '@ecomailcz/mjml-core'
 
 export default class MjWrapper extends MjSection {
   renderWrappedChildren() {

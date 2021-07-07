@@ -3,10 +3,10 @@ import yargs from 'yargs'
 import { flow, pick, isNil, negate, pickBy } from 'lodash/fp'
 import { isArray, isEmpty, map, get } from 'lodash'
 
-import mjml2html, { components, initializeType } from 'mjml-ecm-core'
-import migrate from 'mjml-ecm-migrate'
-import validate from 'mjml-ecm-validator'
-import MJMLParser from 'mjml-ecm-parser-xml'
+import mjml2html, { components, initializeType } from '@ecomailcz/mjml-core'
+import migrate from '@ecomailcz/mjml-migrate'
+import validate from '@ecomailcz/mjml-validator'
+import MJMLParser from '@ecomailcz/mjml-parser-xml'
 
 import readFile, { flatMapPaths } from './commands/readFile'
 import watchFiles from './commands/watchFiles'
@@ -14,7 +14,7 @@ import readStream from './commands/readStream'
 import outputToFile, { isDirectory } from './commands/outputToFile'
 import outputToConsole from './commands/outputToConsole'
 
-import { version as coreVersion } from 'mjml-ecm-core/package.json' // eslint-disable-line import/first
+import { version as coreVersion } from '@ecomailcz/mjml-core/package.json' // eslint-disable-line import/first
 import { version as cliVersion } from '../package.json'
 import DEFAULT_OPTIONS from './helpers/defaultOptions'
 
@@ -73,14 +73,14 @@ export default async () => {
       c: {
         alias: 'config',
         type: 'object',
-        describe: 'Option to pass to mjml-ecm-core',
+        describe: 'Option to pass to @ecomailcz/mjml-core',
       },
       version: {
         alias: 'V',
       },
     })
     .help()
-    .version(`mjml-ecm-core: ${coreVersion}\nmjml-ecm-cli: ${cliVersion}`).argv
+    .version(`@ecomailcz/mjml-core: ${coreVersion}\n@ecomailcz/mjml-cli: ${cliVersion}`).argv
 
   let juiceOptions
   let minifyOptions

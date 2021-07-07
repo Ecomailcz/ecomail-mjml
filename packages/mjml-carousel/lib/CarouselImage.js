@@ -27,7 +27,7 @@ var _inherits3 = _interopRequireDefault(_inherits2);
 
 var _class, _temp;
 
-var _mjmlEcmCore = require('mjml-ecm-core');
+var _mjmlCore = require('@ecomailcz/mjml-core');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -90,7 +90,7 @@ var MjCarouselImage = (_temp = _class = function (_BodyComponent) {
           target = _attributes.target;
 
       var imgIndex = this.props.index + 1;
-      var cssClass = (0, _mjmlEcmCore.suffixCssClasses)(this.getAttribute('css-class'), 'thumbnail');
+      var cssClass = (0, _mjmlCore.suffixCssClasses)(this.getAttribute('css-class'), 'thumbnail');
 
       return '\n      <a\n        ' + this.htmlAttributes({
         style: 'thumbnails.a',
@@ -152,7 +152,7 @@ var MjCarouselImage = (_temp = _class = function (_BodyComponent) {
     }
   }]);
   return MjCarouselImage;
-}(_mjmlEcmCore.BodyComponent), _class.endingTag = true, _class.allowedAttributes = {
+}(_mjmlCore.BodyComponent), _class.endingTag = true, _class.allowedAttributes = {
   alt: 'string',
   href: 'string',
   rel: 'string',

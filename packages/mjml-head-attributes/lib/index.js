@@ -45,7 +45,7 @@ var _reduce = require('lodash/reduce');
 
 var _reduce2 = _interopRequireDefault(_reduce);
 
-var _mjmlEcmCore = require('mjml-ecm-core');
+var _mjmlCore = require('@ecomailcz/mjml-core');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -85,7 +85,7 @@ var MjAttributes = function (_HeadComponent) {
     }
   }]);
   return MjAttributes;
-}(_mjmlEcmCore.HeadComponent);
+}(_mjmlCore.HeadComponent);
 
 exports.default = MjAttributes;
 module.exports = exports['default'];

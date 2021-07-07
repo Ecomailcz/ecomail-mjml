@@ -35,11 +35,11 @@ var _inherits3 = _interopRequireDefault(_inherits2);
 
 var _class, _temp2;
 
-var _mjmlEcmCore = require('mjml-ecm-core');
+var _mjmlCore = require('@ecomailcz/mjml-core');
 
 var _fp = require('lodash/fp');
 
-var _widthParser2 = require('mjml-ecm-core/lib/helpers/widthParser');
+var _widthParser2 = require('@ecomailcz/mjml-core/lib/helpers/widthParser');
 
 var _widthParser3 = _interopRequireDefault(_widthParser2);
 
@@ -277,7 +277,7 @@ var MjHero = (_temp2 = _class = function (_BodyComponent) {
     }
   }]);
   return MjHero;
-}(_mjmlEcmCore.BodyComponent), _class.allowedAttributes = {
+}(_mjmlCore.BodyComponent), _class.allowedAttributes = {
   mode: 'string',
   height: 'unit(px,%)',
   'background-url': 'string',

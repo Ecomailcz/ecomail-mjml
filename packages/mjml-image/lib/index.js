@@ -31,9 +31,9 @@ var _min = require('lodash/min');
 
 var _min2 = _interopRequireDefault(_min);
 
-var _mjmlEcmCore = require('mjml-ecm-core');
+var _mjmlCore = require('@ecomailcz/mjml-core');
 
-var _widthParser2 = require('mjml-ecm-core/lib/helpers/widthParser');
+var _widthParser2 = require('@ecomailcz/mjml-core/lib/helpers/widthParser');
 
 var _widthParser3 = _interopRequireDefault(_widthParser2);
 
@@ -151,7 +151,7 @@ var MjImage = (_temp2 = _class = function (_BodyComponent) {
     }
   }]);
   return MjImage;
-}(_mjmlEcmCore.BodyComponent), _class.tagOmission = true, _class.allowedAttributes = {
+}(_mjmlCore.BodyComponent), _class.tagOmission = true, _class.allowedAttributes = {
   alt: 'string',
   href: 'string',
   name: 'string',

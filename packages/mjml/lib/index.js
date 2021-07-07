@@ -4,56 +4,56 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _mjmlEcmCore = require('mjml-ecm-core');
+var _mjmlCore = require('@ecomailcz/mjml-core');
 
-var _mjmlEcmCore2 = _interopRequireDefault(_mjmlEcmCore);
+var _mjmlCore2 = _interopRequireDefault(_mjmlCore);
 
-var _mjmlEcmValidator = require('mjml-ecm-validator');
+var _mjmlValidator = require('@ecomailcz/mjml-validator');
 
-var _mjmlEcmSocial = require('mjml-ecm-social');
+var _mjmlSocial = require('@ecomailcz/mjml-social');
 
-var _mjmlEcmNavbar = require('mjml-ecm-navbar');
+var _mjmlNavbar = require('@ecomailcz/mjml-navbar');
 
-var _mjmlEcmCarousel = require('mjml-ecm-carousel');
+var _mjmlCarousel = require('@ecomailcz/mjml-carousel');
 
-var _mjmlEcmAccordion = require('mjml-ecm-accordion');
+var _mjmlAccordion = require('@ecomailcz/mjml-accordion');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-(0, _mjmlEcmCore.registerComponent)(require('mjml-ecm-body'));
-(0, _mjmlEcmCore.registerComponent)(require('mjml-ecm-head'));
-(0, _mjmlEcmCore.registerComponent)(require('mjml-ecm-head-attributes'));
-(0, _mjmlEcmCore.registerComponent)(require('mjml-ecm-head-breakpoint'));
-(0, _mjmlEcmCore.registerComponent)(require('mjml-ecm-head-font'));
-(0, _mjmlEcmCore.registerComponent)(require('mjml-ecm-head-preview'));
-(0, _mjmlEcmCore.registerComponent)(require('mjml-ecm-head-style'));
-(0, _mjmlEcmCore.registerComponent)(require('mjml-ecm-head-title'));
-(0, _mjmlEcmCore.registerComponent)(require('mjml-ecm-hero'));
-(0, _mjmlEcmCore.registerComponent)(require('mjml-ecm-button'));
-(0, _mjmlEcmCore.registerComponent)(require('mjml-ecm-column'));
-(0, _mjmlEcmCore.registerComponent)(require('mjml-ecm-divider'));
-(0, _mjmlEcmCore.registerComponent)(require('mjml-ecm-group'));
-(0, _mjmlEcmCore.registerComponent)(require('mjml-ecm-image'));
+(0, _mjmlCore.registerComponent)(require('@ecomailcz/mjml-body'));
+(0, _mjmlCore.registerComponent)(require('@ecomailcz/mjml-head'));
+(0, _mjmlCore.registerComponent)(require('@ecomailcz/mjml-head-attributes'));
+(0, _mjmlCore.registerComponent)(require('@ecomailcz/mjml-head-breakpoint'));
+(0, _mjmlCore.registerComponent)(require('@ecomailcz/mjml-head-font'));
+(0, _mjmlCore.registerComponent)(require('@ecomailcz/mjml-head-preview'));
+(0, _mjmlCore.registerComponent)(require('@ecomailcz/mjml-head-style'));
+(0, _mjmlCore.registerComponent)(require('@ecomailcz/mjml-head-title'));
+(0, _mjmlCore.registerComponent)(require('@ecomailcz/mjml-hero'));
+(0, _mjmlCore.registerComponent)(require('@ecomailcz/mjml-button'));
+(0, _mjmlCore.registerComponent)(require('@ecomailcz/mjml-column'));
+(0, _mjmlCore.registerComponent)(require('@ecomailcz/mjml-divider'));
+(0, _mjmlCore.registerComponent)(require('@ecomailcz/mjml-group'));
+(0, _mjmlCore.registerComponent)(require('@ecomailcz/mjml-image'));
 
-(0, _mjmlEcmCore.registerComponent)(require('mjml-ecm-raw'));
-(0, _mjmlEcmCore.registerComponent)(require('mjml-ecm-section'));
-(0, _mjmlEcmCore.registerComponent)(require('mjml-ecm-spacer'));
-(0, _mjmlEcmCore.registerComponent)(require('mjml-ecm-text'));
-(0, _mjmlEcmCore.registerComponent)(require('mjml-ecm-table'));
-(0, _mjmlEcmCore.registerComponent)(require('mjml-ecm-wrapper'));
+(0, _mjmlCore.registerComponent)(require('@ecomailcz/mjml-raw'));
+(0, _mjmlCore.registerComponent)(require('@ecomailcz/mjml-section'));
+(0, _mjmlCore.registerComponent)(require('@ecomailcz/mjml-spacer'));
+(0, _mjmlCore.registerComponent)(require('@ecomailcz/mjml-text'));
+(0, _mjmlCore.registerComponent)(require('@ecomailcz/mjml-table'));
+(0, _mjmlCore.registerComponent)(require('@ecomailcz/mjml-wrapper'));
 
-(0, _mjmlEcmCore.registerComponent)(_mjmlEcmSocial.Social);
-(0, _mjmlEcmCore.registerComponent)(_mjmlEcmSocial.SocialElement);
-(0, _mjmlEcmCore.registerComponent)(_mjmlEcmNavbar.Navbar);
-(0, _mjmlEcmCore.registerComponent)(_mjmlEcmNavbar.NavbarLink);
-(0, _mjmlEcmCore.registerComponent)(_mjmlEcmAccordion.Accordion);
-(0, _mjmlEcmCore.registerComponent)(_mjmlEcmAccordion.AccordionElement);
-(0, _mjmlEcmCore.registerComponent)(_mjmlEcmAccordion.AccordionText);
-(0, _mjmlEcmCore.registerComponent)(_mjmlEcmAccordion.AccordionTitle);
-(0, _mjmlEcmCore.registerComponent)(_mjmlEcmCarousel.Carousel);
-(0, _mjmlEcmCore.registerComponent)(_mjmlEcmCarousel.CarouselImage);
+(0, _mjmlCore.registerComponent)(_mjmlSocial.Social);
+(0, _mjmlCore.registerComponent)(_mjmlSocial.SocialElement);
+(0, _mjmlCore.registerComponent)(_mjmlNavbar.Navbar);
+(0, _mjmlCore.registerComponent)(_mjmlNavbar.NavbarLink);
+(0, _mjmlCore.registerComponent)(_mjmlAccordion.Accordion);
+(0, _mjmlCore.registerComponent)(_mjmlAccordion.AccordionElement);
+(0, _mjmlCore.registerComponent)(_mjmlAccordion.AccordionText);
+(0, _mjmlCore.registerComponent)(_mjmlAccordion.AccordionTitle);
+(0, _mjmlCore.registerComponent)(_mjmlCarousel.Carousel);
+(0, _mjmlCore.registerComponent)(_mjmlCarousel.CarouselImage);
 
-(0, _mjmlEcmValidator.registerDependencies)(require('./dependencies'));
+(0, _mjmlValidator.registerDependencies)(require('./dependencies'));
 
-exports.default = _mjmlEcmCore2.default;
+exports.default = _mjmlCore2.default;
 module.exports = exports['default'];

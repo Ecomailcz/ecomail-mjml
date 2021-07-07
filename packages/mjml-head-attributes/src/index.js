@@ -2,7 +2,7 @@ import forEach from 'lodash/forEach'
 import omit from 'lodash/omit'
 import reduce from 'lodash/reduce'
 
-import { HeadComponent } from 'mjml-ecm-core'
+import { HeadComponent } from '@ecomailcz/mjml-core'
 
 export default class MjAttributes extends HeadComponent {
   handler() {

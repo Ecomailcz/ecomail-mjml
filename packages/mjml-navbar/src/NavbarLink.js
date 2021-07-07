@@ -1,7 +1,7 @@
-import { BodyComponent, suffixCssClasses } from 'mjml-ecm-core'
+import { BodyComponent, suffixCssClasses } from '@ecomailcz/mjml-core'
 import url from 'url'
 
-import conditionalTag from 'mjml-ecm-core/lib/helpers/conditionalTag'
+import conditionalTag from '@ecomailcz/mjml-core/lib/helpers/conditionalTag'
 
 export default class MjNavbarLink extends BodyComponent {
   static endingTag = true

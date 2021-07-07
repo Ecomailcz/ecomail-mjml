@@ -28,9 +28,9 @@ var _path = require('path');
 
 var _path2 = _interopRequireDefault(_path);
 
-var _mjmlEcmCore = require('mjml-ecm-core');
+var _mjmlCore = require('@ecomailcz/mjml-core');
 
-var _mjmlEcmCore2 = _interopRequireDefault(_mjmlEcmCore);
+var _mjmlCore2 = _interopRequireDefault(_mjmlCore);
 
 var _fp = require('lodash/fp');
 
@@ -94,7 +94,7 @@ exports.default = function (input, options) {
     return { file: file, content: (0, _readFile2.default)(file).mjml };
   }, function (args) {
     return (0, _extends3.default)({}, args, {
-      compiled: (0, _mjmlEcmCore2.default)(args.content, (0, _extends3.default)({
+      compiled: (0, _mjmlCore2.default)(args.content, (0, _extends3.default)({
         filePath: args.file
       }, options.config))
     });

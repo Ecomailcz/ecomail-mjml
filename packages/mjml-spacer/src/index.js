@@ -1,6 +1,6 @@
-import { BodyComponent } from 'mjml-ecm-core'
+import { BodyComponent } from '@ecomailcz/mjml-core'
 
-import conditionalTag from 'mjml-ecm-core/lib/helpers/conditionalTag'
+import conditionalTag from '@ecomailcz/mjml-core/lib/helpers/conditionalTag'
 
 export default class MjSpacer extends BodyComponent {
   static allowedAttributes = {

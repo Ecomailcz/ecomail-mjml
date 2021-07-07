@@ -1,6 +1,6 @@
 {
-  "name": "mjml-ecm-wrapper",
-  "description": "mjml-ecm-wrapper",
+  "name": "@ecomailcz/mjml-wrapper",
+  "description": "@ecomailcz/mjml-wrapper",
   "version": "4.4.0-ecm-18",
   "main": "lib/index.js",
   "repository": {
@@ -19,8 +19,8 @@
   "dependencies": {
     "babel-runtime": "^6.26.0",
     "lodash": "^4.17.2",
-    "mjml-ecm-core": "4.4.0-ecm-18",
-    "mjml-ecm-section": "4.4.0-ecm-18"
+    "@ecomailcz/mjml-core": "4.4.0-ecm-18",
+    "@ecomailcz/mjml-section": "4.4.0-ecm-18"
   },
   "devDependencies": {
     "cross-env": "^5.2.0"

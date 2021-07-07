@@ -1,8 +1,8 @@
 import min from 'lodash/min'
 
-import { BodyComponent } from 'mjml-ecm-core'
+import { BodyComponent } from '@ecomailcz/mjml-core'
 
-import widthParser from 'mjml-ecm-core/lib/helpers/widthParser'
+import widthParser from '@ecomailcz/mjml-core/lib/helpers/widthParser'
 
 export default class MjImage extends BodyComponent {
   static tagOmission = true

@@ -60,15 +60,15 @@ var _jsBeautify = require('js-beautify');
 
 var _htmlMinifier = require('html-minifier');
 
-var _mjmlEcmParserXml = require('mjml-ecm-parser-xml');
+var _mjmlParserXml = require('@ecomailcz/mjml-parser-xml');
 
-var _mjmlEcmParserXml2 = _interopRequireDefault(_mjmlEcmParserXml);
+var _mjmlParserXml2 = _interopRequireDefault(_mjmlParserXml);
 
-var _mjmlEcmValidator = require('mjml-ecm-validator');
+var _mjmlValidator = require('@ecomailcz/mjml-validator');
 
-var _mjmlEcmValidator2 = _interopRequireDefault(_mjmlEcmValidator);
+var _mjmlValidator2 = _interopRequireDefault(_mjmlValidator);
 
-var _mjmlEcmMigrate = require('mjml-ecm-migrate');
+var _mjmlMigrate = require('@ecomailcz/mjml-migrate');
 
 var _components = require('./components');
 
@@ -162,14 +162,14 @@ function mjml2html(mjml) {
   if (mjmlConfigPath) (0, _mjmlconfig2.default)(mjmlConfigPath, _components.registerComponent);
 
   if (typeof mjml === 'string') {
-    mjml = (0, _mjmlEcmParserXml2.default)(mjml, {
+    mjml = (0, _mjmlParserXml2.default)(mjml, {
       keepComments: keepComments,
       components: _components2.default,
       filePath: filePath
     });
   }
 
-  mjml = (0, _mjmlEcmMigrate.handleMjml3)(mjml, { noMigrateWarn: noMigrateWarn });
+  mjml = (0, _mjmlMigrate.handleMjml3)(mjml, { noMigrateWarn: noMigrateWarn });
 
   var globalDatas = {
     backgroundColor: '',
@@ -200,7 +200,7 @@ function mjml2html(mjml) {
       break;
 
     case 'strict':
-      errors = (0, _mjmlEcmValidator2.default)(mjml, validatorOptions);
+      errors = (0, _mjmlValidator2.default)(mjml, validatorOptions);
 
       if (errors.length > 0) {
         throw new ValidationError('ValidationError: \n ' + errors.map(function (e) {
@@ -211,7 +211,7 @@ function mjml2html(mjml) {
 
     case 'soft':
     default:
-      errors = (0, _mjmlEcmValidator2.default)(mjml, validatorOptions);
+      errors = (0, _mjmlValidator2.default)(mjml, validatorOptions);
       break;
   }
 

@@ -35,7 +35,7 @@ var _extends4 = _interopRequireDefault(_extends3);
 
 var _class, _temp;
 
-var _mjmlEcmCore = require('mjml-ecm-core');
+var _mjmlCore = require('@ecomailcz/mjml-core');
 
 var _lodash = require('lodash');
 
@@ -232,7 +232,7 @@ var MjSocialElement = (_temp = _class = function (_BodyComponent) {
     }
   }]);
   return MjSocialElement;
-}(_mjmlEcmCore.BodyComponent), _class.endingTag = true, _class.allowedAttributes = {
+}(_mjmlCore.BodyComponent), _class.endingTag = true, _class.allowedAttributes = {
   align: 'enum(left,center,right)',
   'background-color': 'color',
   color: 'color',

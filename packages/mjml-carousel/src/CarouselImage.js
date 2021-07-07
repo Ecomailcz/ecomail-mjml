@@ -1,4 +1,4 @@
-import { BodyComponent, suffixCssClasses } from 'mjml-ecm-core'
+import { BodyComponent, suffixCssClasses } from '@ecomailcz/mjml-core'
 
 export default class MjCarouselImage extends BodyComponent {
   static endingTag = true

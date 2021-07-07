@@ -4,9 +4,9 @@ import juice from 'juice'
 import { html as htmlBeautify } from 'js-beautify'
 import { minify as htmlMinify } from 'html-minifier'
 
-import MJMLParser from 'mjml-ecm-parser-xml'
-import MJMLValidator from 'mjml-ecm-validator'
-import { handleMjml3 } from 'mjml-ecm-migrate'
+import MJMLParser from '@ecomailcz/mjml-parser-xml'
+import MJMLValidator from '@ecomailcz/mjml-validator'
+import { handleMjml3 } from '@ecomailcz/mjml-migrate'
 
 import components, { initComponent, registerComponent } from './components'
 

@@ -1,6 +1,6 @@
 {
-  "name": "mjml-ecm-validator",
-  "description": "mjml-ecm-validator",
+  "name": "@ecomailcz/mjml-validator",
+  "description": "@ecomailcz/mjml-validator",
   "version": "4.4.0-ecm-18",
   "main": "lib/index.js",
   "repository": {

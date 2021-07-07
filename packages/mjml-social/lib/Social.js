@@ -27,7 +27,7 @@ var _inherits3 = _interopRequireDefault(_inherits2);
 
 var _class, _temp;
 
-var _mjmlEcmCore = require('mjml-ecm-core');
+var _mjmlCore = require('@ecomailcz/mjml-core');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -118,7 +118,7 @@ var MjSocial = (_temp = _class = function (_BodyComponent) {
     }
   }]);
   return MjSocial;
-}(_mjmlEcmCore.BodyComponent), _class.allowedAttributes = {
+}(_mjmlCore.BodyComponent), _class.allowedAttributes = {
   align: 'enum(left,right,center)',
   'border-radius': 'unit(px)',
   'container-background-color': 'color',

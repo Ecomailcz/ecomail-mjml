@@ -9,7 +9,7 @@ import {
   isNil,
 } from 'lodash'
 
-import MJMLParser from 'mjml-ecm-parser-xml'
+import MJMLParser from '@ecomailcz/mjml-parser-xml'
 
 import shorthandParser, { borderParser } from './helpers/shorthandParser'
 import formatAttributes from './helpers/formatAttributes'

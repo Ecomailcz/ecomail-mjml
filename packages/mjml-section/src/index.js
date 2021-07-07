@@ -1,4 +1,4 @@
-import { BodyComponent, suffixCssClasses } from 'mjml-ecm-core'
+import { BodyComponent, suffixCssClasses } from '@ecomailcz/mjml-core'
 import { flow, identity, join, filter } from 'lodash/fp'
 
 const makeBackgroundString = flow(filter(identity), join(' '))

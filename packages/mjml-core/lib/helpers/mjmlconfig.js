@@ -21,7 +21,7 @@ var _fs = require('fs');
 
 var _fs2 = _interopRequireDefault(_fs);
 
-var _mjmlEcmValidator = require('mjml-ecm-validator');
+var _mjmlValidator = require('@ecomailcz/mjml-validator');
 
 var _components = require('../components');
 
@@ -76,7 +76,7 @@ function registerCustomComponent(comp) {
   if (comp instanceof Function) {
     registerCompFn(comp);
   } else {
-    var compNames = (0, _keys2.default)(comp); // this approach handles both an array and an object (like the mjml-ecm-accordion default export)
+    var compNames = (0, _keys2.default)(comp); // this approach handles both an array and an object (like the @ecomailcz/mjml-accordion default export)
     compNames.forEach(function (compName) {
       registerCustomComponent(comp[compName], registerCompFn);
     });
@@ -106,7 +106,7 @@ function handleMjmlConfig() {
       if (resolvedPath) {
         var requiredComp = require(resolvedPath); // eslint-disable-line global-require, import/no-dynamic-require
         registerCustomComponent(requiredComp.default || requiredComp, registerCompFn);
-        (0, _mjmlEcmValidator.registerDependencies)((requiredComp.default || requiredComp).dependencies);
+        (0, _mjmlValidator.registerDependencies)((requiredComp.default || requiredComp).dependencies);
         result.success.push(compPath);
       }
     } catch (e) {

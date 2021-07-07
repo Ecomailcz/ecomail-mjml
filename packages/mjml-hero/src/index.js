@@ -1,7 +1,7 @@
-import { BodyComponent } from 'mjml-ecm-core'
+import { BodyComponent } from '@ecomailcz/mjml-core'
 import { flow, identity, join, filter } from 'lodash/fp'
 
-import widthParser from 'mjml-ecm-core/lib/helpers/widthParser'
+import widthParser from '@ecomailcz/mjml-core/lib/helpers/widthParser'
 
 const makeBackgroundString = flow(filter(identity), join(' '))
 

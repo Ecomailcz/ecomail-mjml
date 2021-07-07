@@ -1,6 +1,6 @@
-import widthParser from 'mjml-ecm-core/lib/helpers/widthParser'
+import widthParser from '@ecomailcz/mjml-core/lib/helpers/widthParser'
 
-import { BodyComponent } from 'mjml-ecm-core'
+import { BodyComponent } from '@ecomailcz/mjml-core'
 import { reduce } from 'lodash'
 
 export default class MjTable extends BodyComponent {

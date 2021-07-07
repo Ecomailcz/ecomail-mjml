@@ -1,37 +1,37 @@
-import mjml2html, { registerComponent } from 'mjml-ecm-core'
-import { registerDependencies } from 'mjml-ecm-validator'
+import mjml2html, { registerComponent } from '@ecomailcz/mjml-core'
+import { registerDependencies } from '@ecomailcz/mjml-validator'
 
-import { Social, SocialElement } from 'mjml-ecm-social'
-import { Navbar, NavbarLink } from 'mjml-ecm-navbar'
-import { Carousel, CarouselImage } from 'mjml-ecm-carousel'
+import { Social, SocialElement } from '@ecomailcz/mjml-social'
+import { Navbar, NavbarLink } from '@ecomailcz/mjml-navbar'
+import { Carousel, CarouselImage } from '@ecomailcz/mjml-carousel'
 import {
   Accordion,
   AccordionElement,
   AccordionText,
   AccordionTitle,
-} from 'mjml-ecm-accordion'
+} from '@ecomailcz/mjml-accordion'
 
-registerComponent(require('mjml-ecm-body'))
-registerComponent(require('mjml-ecm-head'))
-registerComponent(require('mjml-ecm-head-attributes'))
-registerComponent(require('mjml-ecm-head-breakpoint'))
-registerComponent(require('mjml-ecm-head-font'))
-registerComponent(require('mjml-ecm-head-preview'))
-registerComponent(require('mjml-ecm-head-style'))
-registerComponent(require('mjml-ecm-head-title'))
-registerComponent(require('mjml-ecm-hero'))
-registerComponent(require('mjml-ecm-button'))
-registerComponent(require('mjml-ecm-column'))
-registerComponent(require('mjml-ecm-divider'))
-registerComponent(require('mjml-ecm-group'))
-registerComponent(require('mjml-ecm-image'))
+registerComponent(require('@ecomailcz/mjml-body'))
+registerComponent(require('@ecomailcz/mjml-head'))
+registerComponent(require('@ecomailcz/mjml-head-attributes'))
+registerComponent(require('@ecomailcz/mjml-head-breakpoint'))
+registerComponent(require('@ecomailcz/mjml-head-font'))
+registerComponent(require('@ecomailcz/mjml-head-preview'))
+registerComponent(require('@ecomailcz/mjml-head-style'))
+registerComponent(require('@ecomailcz/mjml-head-title'))
+registerComponent(require('@ecomailcz/mjml-hero'))
+registerComponent(require('@ecomailcz/mjml-button'))
+registerComponent(require('@ecomailcz/mjml-column'))
+registerComponent(require('@ecomailcz/mjml-divider'))
+registerComponent(require('@ecomailcz/mjml-group'))
+registerComponent(require('@ecomailcz/mjml-image'))
 
-registerComponent(require('mjml-ecm-raw'))
-registerComponent(require('mjml-ecm-section'))
-registerComponent(require('mjml-ecm-spacer'))
-registerComponent(require('mjml-ecm-text'))
-registerComponent(require('mjml-ecm-table'))
-registerComponent(require('mjml-ecm-wrapper'))
+registerComponent(require('@ecomailcz/mjml-raw'))
+registerComponent(require('@ecomailcz/mjml-section'))
+registerComponent(require('@ecomailcz/mjml-spacer'))
+registerComponent(require('@ecomailcz/mjml-text'))
+registerComponent(require('@ecomailcz/mjml-table'))
+registerComponent(require('@ecomailcz/mjml-wrapper'))
 
 registerComponent(Social)
 registerComponent(SocialElement)

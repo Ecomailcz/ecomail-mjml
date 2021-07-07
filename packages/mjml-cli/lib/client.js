@@ -40,21 +40,21 @@ var _fp = require('lodash/fp');
 
 var _lodash = require('lodash');
 
-var _mjmlEcmCore = require('mjml-ecm-core');
+var _mjmlCore = require('@ecomailcz/mjml-core');
 
-var _mjmlEcmCore2 = _interopRequireDefault(_mjmlEcmCore);
+var _mjmlCore2 = _interopRequireDefault(_mjmlCore);
 
-var _mjmlEcmMigrate = require('mjml-ecm-migrate');
+var _mjmlMigrate = require('@ecomailcz/mjml-migrate');
 
-var _mjmlEcmMigrate2 = _interopRequireDefault(_mjmlEcmMigrate);
+var _mjmlMigrate2 = _interopRequireDefault(_mjmlMigrate);
 
-var _mjmlEcmValidator = require('mjml-ecm-validator');
+var _mjmlValidator = require('@ecomailcz/mjml-validator');
 
-var _mjmlEcmValidator2 = _interopRequireDefault(_mjmlEcmValidator);
+var _mjmlValidator2 = _interopRequireDefault(_mjmlValidator);
 
-var _mjmlEcmParserXml = require('mjml-ecm-parser-xml');
+var _mjmlParserXml = require('@ecomailcz/mjml-parser-xml');
 
-var _mjmlEcmParserXml2 = _interopRequireDefault(_mjmlEcmParserXml);
+var _mjmlParserXml2 = _interopRequireDefault(_mjmlParserXml);
 
 var _readFile = require('./commands/readFile');
 
@@ -76,7 +76,7 @@ var _outputToConsole = require('./commands/outputToConsole');
 
 var _outputToConsole2 = _interopRequireDefault(_outputToConsole);
 
-var _package = require('mjml-ecm-core/package.json');
+var _package = require('@ecomailcz/mjml-core/package.json');
 
 var _package2 = require('../package.json');
 
@@ -146,12 +146,12 @@ exports.default = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.de
             c: {
               alias: 'config',
               type: 'object',
-              describe: 'Option to pass to mjml-ecm-core'
+              describe: 'Option to pass to @ecomailcz/mjml-core'
             },
             version: {
               alias: 'V'
             }
-          }).help().version('mjml-ecm-core: ' + _package.version + '\nmjml-ecm-cli: ' + _package2.version).argv;
+          }).help().version('@ecomailcz/mjml-core: ' + _package.version + '\n@ecomailcz/mjml-cli: ' + _package2.version).argv;
           juiceOptions = void 0;
           minifyOptions = void 0;
           juicePreserveTags = void 0;
@@ -245,17 +245,17 @@ exports.default = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.de
               switch (inputOpt) {
                 case 'm':
                   // eslint-disable-line no-case-declarations
-                  compiled = { html: (0, _mjmlEcmMigrate2.default)(i.mjml, { beautify: true }) };
+                  compiled = { html: (0, _mjmlMigrate2.default)(i.mjml, { beautify: true }) };
                   break;
                 case 'v':
                   // eslint-disable-line no-case-declarations
-                  var mjmlJson = (0, _mjmlEcmParserXml2.default)(i.mjml, { components: _mjmlEcmCore.components });
+                  var mjmlJson = (0, _mjmlParserXml2.default)(i.mjml, { components: _mjmlCore.components });
                   compiled = {
-                    errors: (0, _mjmlEcmValidator2.default)(mjmlJson, { components: _mjmlEcmCore.components, initializeType: _mjmlEcmCore.initializeType })
+                    errors: (0, _mjmlValidator2.default)(mjmlJson, { components: _mjmlCore.components, initializeType: _mjmlCore.initializeType })
                   };
                   break;
                 default:
-                  compiled = (0, _mjmlEcmCore2.default)(i.mjml, (0, _extends3.default)({}, config, { filePath: filePath || i.file }));
+                  compiled = (0, _mjmlCore2.default)(i.mjml, (0, _extends3.default)({}, config, { filePath: filePath || i.file }));
               }
 
               convertedStream.push((0, _extends3.default)({}, i, { compiled: compiled }));

@@ -1,7 +1,7 @@
 {
   "name": "@ecomailcz/mjml-cli",
   "description": "MJML: the only framework that makes responsive-email easy",
-  "version": "4.4.0-ecm-21",
+  "version": "4.4.0-ecm-22",
   "main": "bin/mjml",
   "bin": {
     "@ecomailcz/mjml-cli": "bin/mjml"
@@ -20,10 +20,10 @@
     "build": "cross-env ../../node_modules/.bin/babel src --out-dir lib"
   },
   "dependencies": {
-    "@ecomailcz/mjml-core": "4.4.0-ecm-21",
-    "@ecomailcz/mjml-migrate": "4.4.0-ecm-21",
-    "@ecomailcz/mjml-parser-xml": "4.4.0-ecm-21",
-    "@ecomailcz/mjml-validator": "4.4.0-ecm-21",
+    "@ecomailcz/mjml-core": "4.4.0-ecm-22",
+    "@ecomailcz/mjml-migrate": "4.4.0-ecm-22",
+    "@ecomailcz/mjml-parser-xml": "4.4.0-ecm-22",
+    "@ecomailcz/mjml-validator": "4.4.0-ecm-22",
     "babel-runtime": "^6.26.0",
     "chokidar": "^3.0.0",
     "glob": "^7.1.1",

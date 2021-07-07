@@ -7,7 +7,7 @@
     "access": "public"
   },
   "bin": {
-    "@ecomailcz/mjml-cli": "bin/mjml"
+    "mjml-cli": "bin/mjml"
   },
   "repository": {
     "type": "git",

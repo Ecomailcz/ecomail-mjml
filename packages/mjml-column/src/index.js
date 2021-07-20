@@ -73,7 +73,7 @@ export default class MjColumn extends BodyComponent {
         direction: this.getAttribute('direction'),
         display: 'inline-block',
         'vertical-align': this.getAttribute('vertical-align'),
-        width: this.getMobileWidth(),
+        width: this.getWidthAsPixel(),
       },
       table: {
         ...(this.hasGutter() ? {} : tableStyle),

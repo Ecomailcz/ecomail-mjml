@@ -1,7 +1,7 @@
 {
   "name": "@ecomailcz/mjml-parser-xml",
   "description": "@ecomailcz/mjml-parser-xml",
-  "version": "4.4.0-ecm-25",
+  "version": "4.4.0-ecm-26",
   "main": "lib/index.js",
   "publishConfig": {
     "access": "public"
@@ -26,8 +26,8 @@
     "lodash": "^4.17.2"
   },
   "devDependencies": {
-    "@ecomailcz/mjml": "4.4.0-ecm-25",
-    "@ecomailcz/mjml-core": "4.4.0-ecm-25",
+    "@ecomailcz/mjml": "4.4.0-ecm-26",
+    "@ecomailcz/mjml-core": "4.4.0-ecm-26",
     "chai": "^4.1.1",
     "cross-env": "^5.2.0"
   }

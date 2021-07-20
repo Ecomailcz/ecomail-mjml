@@ -1,7 +1,7 @@
 {
   "name": "@ecomailcz/mjml-core",
   "description": "@ecomailcz/mjml-core",
-  "version": "4.4.0-ecm-25",
+  "version": "4.4.0-ecm-26",
   "main": "lib/index.js",
   "publishConfig": {
     "access": "public"
@@ -21,9 +21,9 @@
     "test": "node ./tests/index.js"
   },
   "dependencies": {
-    "@ecomailcz/mjml-migrate": "4.4.0-ecm-25",
-    "@ecomailcz/mjml-parser-xml": "4.4.0-ecm-25",
-    "@ecomailcz/mjml-validator": "4.4.0-ecm-25",
+    "@ecomailcz/mjml-migrate": "4.4.0-ecm-26",
+    "@ecomailcz/mjml-parser-xml": "4.4.0-ecm-26",
+    "@ecomailcz/mjml-validator": "4.4.0-ecm-26",
     "babel-runtime": "^6.26.0",
     "html-minifier": "^3.5.3",
     "js-beautify": "^1.6.14",

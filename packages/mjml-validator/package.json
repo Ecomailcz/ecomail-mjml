@@ -1,7 +1,7 @@
 {
   "name": "@ecomailcz/mjml-validator",
   "description": "@ecomailcz/mjml-validator",
-  "version": "4.4.0-ecm-24",
+  "version": "4.4.0-ecm-25",
   "main": "lib/index.js",
   "publishConfig": {
     "access": "public"

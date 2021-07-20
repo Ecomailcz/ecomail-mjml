@@ -1,6 +1,6 @@
 {
   "name": "@ecomailcz/mjml-migrate",
-  "version": "4.4.0-ecm-26",
+  "version": "4.4.0-ecm-27",
   "description": "A tool to migrate a template from MJML 3 to MJML 4",
   "main": "lib/migrate.js",
   "publishConfig": {
@@ -26,8 +26,8 @@
     "cross-env": "^5.2.0"
   },
   "dependencies": {
-    "@ecomailcz/mjml-core": "4.4.0-ecm-26",
-    "@ecomailcz/mjml-parser-xml": "4.4.0-ecm-26",
+    "@ecomailcz/mjml-core": "4.4.0-ecm-27",
+    "@ecomailcz/mjml-parser-xml": "4.4.0-ecm-27",
     "babel-runtime": "^6.26.0",
     "commander": "^2.11.0",
     "js-beautify": "^1.6.14",

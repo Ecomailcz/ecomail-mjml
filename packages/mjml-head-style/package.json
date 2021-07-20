@@ -1,7 +1,7 @@
 {
   "name": "@ecomailcz/mjml-head-style",
   "description": "@ecomailcz/mjml-head-style",
-  "version": "4.4.0-ecm-26",
+  "version": "4.4.0-ecm-27",
   "main": "lib/index.js",
   "publishConfig": {
     "access": "public"
@@ -20,7 +20,7 @@
     "build": "cross-env ../../node_modules/.bin/babel src --out-dir lib"
   },
   "dependencies": {
-    "@ecomailcz/mjml-core": "4.4.0-ecm-26",
+    "@ecomailcz/mjml-core": "4.4.0-ecm-27",
     "babel-runtime": "^6.26.0",
     "lodash": "^4.17.2"
   },

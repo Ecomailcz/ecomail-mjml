@@ -163,8 +163,10 @@ var BodyComponent = function (_Component) {
   }, {
     key: 'getShorthandBorderValue',
     value: function getShorthandBorderValue(direction) {
-      var borderDirection = direction && this.getAttribute('border-' + direction);
-      var border = this.getAttribute('border');
+      var attribute = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'border';
+
+      var borderDirection = direction && this.getAttribute(attribute + '-' + direction);
+      var border = this.getAttribute(attribute);
 
       return (0, _shorthandParser.borderParser)(borderDirection || border || '0', 10);
     }

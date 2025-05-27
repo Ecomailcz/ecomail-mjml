@@ -57,7 +57,9 @@ var MjColumn = (_temp = _class = function (_BodyComponent) {
           borders = _getBoxWidths.borders,
           paddings = _getBoxWidths.paddings;
 
-      var allPaddings = paddings + borders;
+      var innerBorders = this.getShorthandBorderValue('left', 'inner-border') + this.getShorthandBorderValue('right', 'inner-border');
+
+      var allPaddings = paddings + borders + innerBorders;
 
       var containerWidth = this.getAttribute('width') || parseFloat(parentWidth) / nonRawSiblings + 'px';
 
@@ -100,7 +102,15 @@ var MjColumn = (_temp = _class = function (_BodyComponent) {
           'vertical-align': this.getAttribute('vertical-align'),
           width: this.getMobileWidth()
         },
-        table: (0, _extends3.default)({}, this.hasGutter() ? {} : tableStyle),
+        table: (0, _extends3.default)({}, this.hasGutter() ? {
+          'background-color': this.getAttribute('inner-background-color'),
+          border: this.getAttribute('inner-border'),
+          'border-bottom': this.getAttribute('inner-border-bottom'),
+          'border-left': this.getAttribute('inner-border-left'),
+          'border-radius': this.getAttribute('inner-border-radius'),
+          'border-right': this.getAttribute('inner-border-right'),
+          'border-top': this.getAttribute('inner-border-top')
+        } : tableStyle),
         tdOutlook: {
           'vertical-align': this.getAttribute('vertical-align'),
           width: this.getWidthAsPixel()
@@ -291,10 +301,17 @@ var MjColumn = (_temp = _class = function (_BodyComponent) {
   'border-right': 'string',
   'border-top': 'string',
   direction: 'enum(ltr,rtl)',
+  'inner-background-color': 'color',
   'padding-bottom': 'unit(px,%)',
   'padding-left': 'unit(px,%)',
   'padding-right': 'unit(px,%)',
   'padding-top': 'unit(px,%)',
+  'inner-border': 'string',
+  'inner-border-bottom': 'string',
+  'inner-border-left': 'string',
+  'inner-border-radius': 'unit(px,%){1,4}',
+  'inner-border-right': 'string',
+  'inner-border-top': 'string',
   padding: 'unit(px,%){1,4}',
   'vertical-align': 'enum(top,bottom,middle)',
   width: 'unit(px,%)'
